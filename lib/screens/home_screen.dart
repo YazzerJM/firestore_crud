@@ -14,7 +14,11 @@ class _HomeScreenState extends State<HomeScreen> {
   void initState() {
 
     final basicCrud = BasicCrud();
-    basicCrud.addDocument();
+    // basicCrud.addDocument();
+    // basicCrud.updateDocument();
+    // basicCrud.deleteDocument();
+    // basicCrud.fetchDocument();
+    basicCrud.fetchAllDocuments();
 
     super.initState();
   }
